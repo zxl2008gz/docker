@@ -36,8 +36,8 @@ services:
       - ./mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: webroot
-      MYSQL_USER: mysql
-      MYSQL_PASSWORD: mysql   
+      MYSQL_USER: mysqluser
+      MYSQL_PASSWORD: mysqlpasswd  
        
   redis:
     image: redis
