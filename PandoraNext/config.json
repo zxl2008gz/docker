@@ -9,7 +9,7 @@
   "proxy_url": "",
   "license_id": "github",
   "public_share": false,
-  "site_password": "site_pswd",
+  "site_password": "sites_pswd",
   "setup_password": "webgptpasswd",
   "server_tokens": true,
   "proxy_api_prefix": "",
