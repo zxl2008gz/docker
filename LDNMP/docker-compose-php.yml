@@ -1,1 +1,8 @@
 
+services:
+  php:
+    image: php:fpm-alpine
+    container_name: php
+    restart: always
+    volumes:
+      - ./html:/var/www/html
