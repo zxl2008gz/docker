@@ -1,1 +1,8 @@
 
+services:
+  php74:
+    image: php:7.4-fpm-alpine
+    container_name: php74
+    restart: always
+    volumes:
+      - ./html:/var/www/html
